@@ -1,0 +1,41 @@
+$breakpoint: 360px;
+
+@mixin phone{
+    @media (max-width: $breakpoint) {
+        @content;
+    }
+}
+
+@include phone{
+   
+    .down{
+        height: 120vh; 
+
+        .up {
+            border-bottom-left-radius: 30% 20% !important;
+            border-bottom-right-radius: 30% 20% !important;
+
+            #firstName, #lastName{
+                width: 330px;
+                height: 35px;
+            }
+
+            #addBtn{
+                width: 330px !important;
+                height: 35px !important;
+                margin-right: 5px !important;
+                margin-left: 5px !important;
+                font-size: 15px !important;
+            }
+        }
+
+        span{
+            font-size: 14px !important;
+        }
+
+        #getBtn{
+            width: 330px !important;
+            height: 35px !important;
+        }
+    }
+}
