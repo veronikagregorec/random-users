@@ -1,6 +1,6 @@
 # Random Users
 
-Local storage and API.
+Adding to local storage and getting random users.
 
 Demo: <a href="https://veronikagregorec.github.io/random-users">Random Users</a>
 
