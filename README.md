@@ -2,8 +2,6 @@
 
 Adding to local storage and getting random users.
 
-<a href="https://veronikagregorec.github.io/random-users/">Live Preview</a>
-
 ## Folder Structure
 
 <b>dist</b> folder is for usage. It contains files to avoid hastle during usage.
